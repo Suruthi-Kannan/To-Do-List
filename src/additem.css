@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.addform{
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} 
+.addform label{
+ position: absolute;
+ left: -9999px;
+ 
+}  
+.addform input[type='text']{
+    flex-grow: 1;
+    display: flex;
+    min-height: 48px;
+    max-width:50%;
+    border: 2px solid;
+    border-radius: 0.50rem;
+    margin-right: 0.25rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+}  
+.addform button{
+    display: flex;
+    border: 2px solid;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    height: 48px;
+    min-width: 48px;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+.searchitem{
+    font-size: 2rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+} 
+.searchitem label{
+ position: absolute;
+ left: -9999px;
+ 
+}  
+.searchitem input[type='text']{
+    flex-grow: 1;
+    display: flex;
+    min-height: 48px;
+    max-width:60%;
+    border: 2px solid;
+    border-radius: 0.50rem;
+    margin-right: 0.25rem;
+    font-size: 1rem;
+    padding: 0.25rem;
+}  
+.searchitem button{
+    display: flex;
+    border: 2px solid;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    height: 48px;
+    min-width: 48px;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: blueviolet;
+    cursor: pointer;
+
+}
